@@ -1,0 +1,90 @@
+.cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: #8a2b06;
+  }
+  
+  .actions .button {
+    background-color: #8a2b06;
+    color: white;
+  }
+  .values{
+    color: #8a2b06;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  hr{
+    border-color:  #dd5018;
+  }
+  .button button{
+    height: 35px;
+    width: 45px;
+    background-color: white;
+    color: #5a1a01;
+    border: solid #5a1a01 2px;
+    border-radius: 5px;
+    font-size: large;
+  }
+  .button button:hover,
+  .button button:active {
+    background-color: #5a1a01;
+    color: white;
+  }
+  .amount{
+    display: flex;
+    flex-direction: row;
+    }
+    .amount h3{
+      color: black;
+      font-size: 20px;
+      display: flex;
+      width: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-left: 120px;
+      border: solid rgb(201, 197, 197) 1px;
+      height: 35px;
+      border-radius: 5px;
+      font-weight:bold;
+    }
+    .button{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100px;
+    }
